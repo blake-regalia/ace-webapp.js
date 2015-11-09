@@ -12,7 +12,7 @@
   },
   "main": "build/src/ace.js",
   "files": [
-    "lib"
+    "build"
   ],
   "keywords": [
     "ace",
