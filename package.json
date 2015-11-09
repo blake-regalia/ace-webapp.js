@@ -1,15 +1,26 @@
 {
-    "name": "ace",
-    "description": "Ajax.org Code Editor is a full featured source code highlighting editor that powers the Cloud9 IDE",
-    "version": "1.2.2",
+    "name": "ace-webapp",
+    "version": "0.0.0",
+    "description": "Browserify-compatible Ajax.org Code Editor (Ace) npm module for webapps",
     "homepage": "http://github.com/ajaxorg/ace",
     "engines": {"node": ">= 0.6.0"},
-    "author": "Fabian Jakobs <fabian@c9.io>",
-    "main": "lib/ace",
-    "repository": {
-        "type": "git",
-         "url": "http://github.com/ajaxorg/ace.git"
+    "author": {
+        "name": "Blake Regalia",
+        "email": "blake.regalia@gmail.com"
     },
+    "main": "build/src/ace.js",
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "ace",
+        "cloud",
+        "9",
+        "ajax",
+        "org",
+        "browserify"
+    ],
+    "repository": "blake-regalia/ace-webapp",
     "dependencies": {
         "mime": "1.2.x"
     },
