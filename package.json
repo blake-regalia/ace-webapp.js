@@ -1,6 +1,6 @@
 {
   "name": "ace-webapp",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Browserify-compatible Ajax.org Code Editor (Ace) npm module for webapps",
   "homepage": "http://github.com/ajaxorg/ace",
   "engines": {
