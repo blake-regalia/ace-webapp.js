@@ -1,6 +1,6 @@
 {
   "name": "ace-webapp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Browserify-compatible Ajax.org Code Editor (Ace) npm module for webapps",
   "homepage": "http://github.com/ajaxorg/ace",
   "engines": {
@@ -10,9 +10,9 @@
     "name": "Blake Regalia",
     "email": "blake.regalia@gmail.com"
   },
-  "main": "build/src/ace.js",
+  "main": "./src-min-noconflict/ace.js",
   "files": [
-    "build"
+    "src-min-noconflict"
   ],
   "keywords": [
     "ace",
@@ -22,7 +22,7 @@
     "org",
     "browserify"
   ],
-  "repository": "blake-regalia/ace-webapp",
+  "repository": "blake-regalia/ace-webapp.js",
   "dependencies": {
     "mime": "1.2.x"
   },
